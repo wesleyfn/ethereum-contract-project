@@ -1,0 +1,21 @@
+{
+  "name": "ethereum-contract-project",
+  "version": "1.0.0",
+  "description": "Este projeto tem como objetivo realizar experimentações com a linguagem solidity, bem como o hardhat para realizar a construção de smart contracts além de fazer o deploy na rede local para possíveis testes e modificações. O projeto tem como objetivo a inserção de diplomas de graduação na rede blockchain.  Através de algumas informações do aluno cadastradas pela instituição, será gerado um hash, esse hash será enviado para a blockchain e será associado a uma chave do aluno que solicitou o documento.",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.16"
+  },
+  "dependencies": {
+    "list": "^2.0.19"
+  }
+}
